@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registro">
-                   </activity>
+        <activity android:name=".sweet"></activity>
+        <activity android:name=".salt" />
+        <activity android:name=".hotdrink" />
+        <activity android:name=".concoact" />
+        <activity android:name=".productosActivity" />
+        <activity android:name=".menuActivity" />
+        <activity android:name=".registro" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

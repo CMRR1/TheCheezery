@@ -10,11 +10,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn_1.setOnClickListener{
-            val intent = Intent(this, registro::class.java)
-            startActivity(intent)
-            finish();
-        }
-    }
 
+        //Código para iniciar otra activity
+        btn_getstarted.setOnClickListener {
+            var intent = Intent(this, menuActivity::class.java)
+            startActivity(intent)
+        }
+
+        //var prueba: Intent? = null
+
+
+    }
 }
+
