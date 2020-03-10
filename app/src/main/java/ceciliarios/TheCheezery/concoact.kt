@@ -26,9 +26,11 @@ class concoact : AppCompatActivity() {
 
 
     fun cargarProductos(){
-        combo.add(producto("hamburguesa", R.drawable.combohamburguesa, "Hamburguesa bien bonita y hecha con amor uwu", 6))
-        combo.add(producto("Palomitas", R.drawable.combopalomitas, "Palomitas con su dogito como de que no", 4))
-        combo.add(producto("Papas", R.drawable.combopapas, "Papitas bien bonitas desde Francia", 2))
+        combo.add(producto("Perrito Helado", R.drawable.perritohelado, "Un lindo perrito tomando un rico helado uwu", 10))
+        combo.add(producto("Perrito con Cosplay", R.drawable.perritocosplay, "Un lindo perrito con un lindo traje de Sailor", 8))
+        combo.add(producto("Perrito Sol", R.drawable.perritosol, "Perrito que toma el sol...y ya", 6))
+        combo.add(producto("Perrito Meme", R.drawable.perritojuguito, "Un perrito que toma su juguito, hagale caso al juguito", 4))
+        combo.add(producto("Perrito Coronavirus", R.drawable.perritocoronavirus, "Perrito que se protege ante la vida y también ante el coronavirus", 2))
 
     }
 
